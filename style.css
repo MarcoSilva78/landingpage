@@ -1,0 +1,47 @@
+body {
+	text-align: left;
+	font-family: Helvetica;
+	background-image: url(Images/background_marco_silva.jpg);
+	background-size: cover;
+	color: white;
+}
+
+h1{
+	font-size: 70px;
+	padding-top: 150px;
+	text-shadow: 2px 2px 2px rgb(33, 35, 37);
+	margin-bottom: 15px;
+}
+
+p{
+	font-size: 25px;
+}
+
+.button{
+	text-decoration: none;
+	background-color: rgb(0, 58, 227);
+	color: white;
+	font-size: 20px;
+	padding: 10px 15px 10px 15px;
+	border-radius: 4px;
+}
+
+.button:hover {
+	background-color: rgba(0, 58, 227, 0.7);
+}
+
+.list{
+	list-style: none;
+	padding-left: 0;
+	margin-top: 150px;
+}
+
+.list li{
+	display: inline;
+}
+
+.list a{
+	color: white;
+	font-size: 30px;
+	padding: 5px 5px 5px 5px;
+}
